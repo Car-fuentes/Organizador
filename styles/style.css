@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+}
+
+h1{
+    color: white
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr 4fr;
+    grid-gap: 2px;
+    background-color: rgb(153, 153, 214);
+    padding: 2px;
+    margin: 30px;
+
+}
+
+.grid-container>div{
+    text-align: center;
+    font-size: 20px;
+    padding:0.5em;
+}
+
+nav{
+    display: flex-row;
+    justify-content: center;
+}
+
+
+#listadoTareas{
+    background-color: rgb(187, 202, 207);
+}
+
+.nuevo{
+    background-color: rgb(185, 243, 185);
+}
+
+.modificar{
+    background-color: rgb(235, 235, 166);
+}
+
+.eliminar{
+    background-color: rgb(241, 192, 160);
+}
+
+#listadoNotas{
+    background-color: rgb(238, 231, 231);
+}
+
+#listadoRecordatorios{
+    background-color: rgb(202, 206, 207);
+}
